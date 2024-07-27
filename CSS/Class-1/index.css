@@ -1,0 +1,20 @@
+/* Universal Selector */
+*{
+      background-color: black;
+}
+
+/* Tag/name Selector */
+h1{
+     background-color: pink; 
+     color: brown;
+}
+p{
+      color: white;
+      font-size: 20px ;
+      font-family: "Poppins", sans-serif;
+      text-align: justify;
+}
+a{
+      color: white;
+      text-decoration: none;
+}
