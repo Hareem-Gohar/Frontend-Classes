@@ -1,0 +1,64 @@
+h3{
+      color: blue;
+}
+/* div{
+      height: 200px;
+      width: 200px;
+} */
+
+/* Class Selector */
+.box-1{
+      background-color: #832828;
+      color: white;
+      font-size: 30px;
+      border-top: 20px solid skyblue;
+      border-right: 20px solid pink;
+      border-top-right-radius: 20px;
+      /* width: 1000px; */
+}
+
+/* Id Selector */
+/* 
+#box-2{
+      background-color: rgb(138, 43, 226);
+      width: 500px;
+} */
+
+.box-heading{
+      color: white;  
+}
+.box-2{
+      background-color: aquamarine;
+      color: chocolate;
+      border-color: black;
+      border-width: 7px;
+      border-style: solid;
+}
+.box-2-hd{
+      color:  rgba(12, 90, 120, 90%);
+}
+
+.box-3{
+      background-color: rgba(55, 108, 129, 0.5);
+      border-color: magenta;
+      border-width: 10px;
+      border-style: double;
+}
+
+.box-3 h3{
+      color: orange;
+}
+
+.box-4{
+      background-color: #832828;
+      border: 30px solid green;
+      border-radius: 5px;
+}
+.box-5{
+      background-image: url(images.png);
+      height: 500px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center center ;
+      
+}
