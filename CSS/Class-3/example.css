@@ -24,12 +24,10 @@
 .card p{
       text-align: center;
 }
-.card button{
-      margin: 15px auto;
-      display: block;
+.card button{ margin: 15px auto;
       padding: 8px 15px;
       background-color: black;
       color: white;
       border: 2px solid rgb(221, 69, 137);
-      border-radius: 10px;
 }
+      
