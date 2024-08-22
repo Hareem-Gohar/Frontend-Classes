@@ -1,0 +1,55 @@
+body{
+      background-color: #161815;
+}
+.navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 15px 20px;
+}
+.logo{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+}
+.logo a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+}
+.navlinks{
+      flex-grow: 1;
+}
+.navlinks ul{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+}
+.navlinks ul li{
+      list-style: none;
+}
+.navlinks ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+
+}
+.auth-btns{
+      display: flex;
+      gap: 10px;
+}
+.btn{
+      border: 2px solid #6DE754;
+      padding: 12px 32px;
+      font-size: 18px;
+      border-radius: 12px;
+}
+.bg-trspnt{
+      background-color: transparent;
+      color: white;
+}
+.bg-green{
+      background-color: #6DE754;
+      
+}
