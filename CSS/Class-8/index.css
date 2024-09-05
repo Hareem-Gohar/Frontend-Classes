@@ -1,0 +1,74 @@
+body{
+      background-color: plum;
+}
+
+/* Starting from */
+
+/* @media (min-width: 200px){
+      body{
+            background-color: aquamarine;
+      }
+}
+@media (min-width: 400px) {
+      body{
+            background-color: palegreen;
+      }
+} */
+ 
+
+/* Upto */
+
+/* @media (max-width:600px) {
+      body{
+            background-color: blue;
+      }
+}
+@media (max-width: 200px){
+      body{
+            background-color: rgb(25, 80, 61);
+      }
+} */
+
+
+
+/* @media (orientation: portrait){
+      body{
+            background-color: black;
+      }
+} */
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.box{
+      width: 200px;
+      height: 200px;
+      background-color: azure;
+      border: 2px solid black;
+}
+
+@media (max-width:400px) {
+      .box{
+            width: 100%;
+      }
+}
+@media (min-width:401px) and (max-width:786px){
+      .box{
+            width:calc(50% - 20px);
+      }
+}
+
+
+/* 
+below 640px --sm
+min-width: 641px , max-width: 786px ---md
+min-width:787px , max-width: 1024px --lg
+min-width: 1025px , max-width: 1288px --xl
+min-width: 1289px , max-width: 1538px --2xl
+*/
