@@ -63,6 +63,11 @@ gap: 20px;
             width:calc(50% - 20px);
       }
 }
+@media (min-width:787px) and (max-width:1024px){
+      .box{
+            width: 100%;
+      }
+}
 
 
 /* 
